@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        .header {
+            width: 100%;
+            background-image: url(final-template/first-screen.jpg);
+            background-repeat: no-repeat;
+            height: 700px;
+        }
+        .wrapper {
+            margin: auto;
+            margin-top: -150px;
+            background-color: rgb(245, 245, 245);
+            padding: 40px;
+            margin-right: 0px;
+            margin-left: 0px;
+            
+        }
+        .section-1 {
+            width: 100%;
+            background-color: rgb(247,101,74);
+            color: white;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-top: 50px;
+        }
+        .section-2 {
+            width: 100%;
+            background-color: rgb(52, 55, 71);
+            padding-top: 60px;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+        .section-3 {
+            width: 100%;
+            background-color: rgb(247,101,74);
+            color: white;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-top: 50px;
+        }
+        .footer {
+            width: 100%;
+            background-color: #404149;
+            color: white;
+            padding: 20px 0px;
+        }
+        .glavnie-text {
+            padding-top: 120px;
+            text-align: center;
+            color: white;
+            width: 700px;
+            margin: auto;
+        }
+        .glavnie-text h1 {
+            font-size: 50px;
+            line-height: 65px;
+        }
+        .wrapper .row {
+            justify-content: space-around;
+            text-align: center;
+            
+        }
+        .wrapper h1 {
+            font-size: 70px;
+            color: rgb(253, 116, 24);
+        }
+        .wrapper h5 {
+            font-weight: bold;
+            font-size: 33px;
+        } 
+        .wrapper p {
+            color: grey;
+            font-weight: 600;
+        }
+        .container .proekti-text {
+            margin-top: 150px;
+        }
+        .container .foto-proekti {
+            margin: auto;
+        }
+        .linia {
+            width: 55px;
+            background-color: rgb(255, 130, 47);
+            height: 5px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .foto-proekti p {
+            color: grey;
+            
+        }
+        .foto-proekti img {
+            width: 100%;
+        }
+        .umnie-proekti-2 {
+            font-weight: bold;
+            width: 180px;
+            height: 60px;
+            text-align: center;
+            padding-top: 19px;
+            background-color: white;
+            color: black;
+            float: right;
+            margin-top: 20px;
+        }
+        .build {
+            text-align: center;
+            background-color: rgb(245, 245, 245);
+            box-sizing: border-box;
+            padding: 80px;
+            margin-bottom: 20px;
+            line-height: 90px;
+        }
+        .build-heading {
+            margin-top: 100px;
+            margin-bottom: 30px;
+        }
+        .container-fluid {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .partners-heading {
+            color: white;
+            padding-bottom: 30px;
+        }
+        .otzivi-heading {
+            text-align: center;
+            margin-top: 150px;
+            margin-bottom: 50px;
+        }
+        .otzivi {
+            background-color: rgb(245, 245, 245);
+            color: rgb(150, 150, 150);
+            padding: 20px 35px;
+            width: 380px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+        .container-fluid .col-3 {
+            padding: 0px;
+        } 
+        .no-gutters {
+            width: 1864px;
+        }
+        .pull-out-list i {
+            font-size: 25px;
+            margin-bottom: 25px;
+        }
+        .pull-out-list {
+            color: rgb(253, 116, 24);
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 100px;
+        }
+        .fa-caret-right {
+            margin-right: 10px;
+        } 
+        .fa-caret-up {
+            margin-right: 10px;
+        }
+        .Lorem {
+            color: rgb(150, 150, 150);
+            font-size: 17px;
+            width: 750px;
+            font-weight: normal;
+            margin-top: -20px;
+            margin-bottom: 25px;
+        }
+        .otveti-vopros {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        .fa-quote-left {
+            font-size: 35px;
+            color: rgb(253, 116, 24);
+            margin-bottom: 20px;
+        }
+        span {
+            font-weight: bold;
+            margin-left: 18px;
+            font-size: 19px;
+        }
+        b {
+            color: rgb(255, 130, 47);
+        }
+        .contacts {
+            text-align: center;
+            width: 230px;
+            font-weight: bold;
+            font-size: 17px;
+            margin-top: 25px;
+            margin-bottom: 100px;
+        }
+        .contacts i {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #F7654A;
+        }
+        .contacts h5 {
+            color: rgb(150, 150, 150);
+            margin-bottom: 20px;
+        }
+        .contacts p {
+            margin-bottom: 0px;
+        }
+        .contacts-heading {
+            margin-top: 100px;
+        }
+        .info {
+            color: #F7654A;
+        }
+        .footer-1 {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-2">
+                    <img src="final-template/icons/logo.svg">
+                </div>
+                <div class="col-2 text-end">
+                    <img src="final-template/icons/menu-gamburger.svg" alt=""></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="glavnie-text">
+                        <h1>РЕАЛИЗУЕМ КРУПНЕЙШИЕ ПРОЕКТЫ В РОССИИ</h1>
+                        <p>СТАДИОНЫ,ГАЗОПРОВОДЫ,МОСТЫ,ДАМБЫ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-2">
+                    <h1>26</h1>
+                    <h5>ЛЕТ</h5>
+                    <p>на рынке</p>
+                </div>
+                <div class="col-2">
+                    <h1>26</h1>
+                    <h5>ЛЕТ</h5>
+                    <p>на рынке</p></div>
+                <div class="col-2">
+                    <h1>26</h1>
+                    <h5>ЛЕТ</h5>
+                    <p>на рынке</p></div>
+                <div class="col-2">
+                    <h1>26</h1>
+                    <h5>ЛЕТ</h5>
+                    <p>на рынке</p>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-center mb-5 proekti-text">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</h1>
+        <div class="foto-proekti">
+            <div class="row">
+                <div class="col-4">
+                    <img src="final-template/st.jpg" alt="">
+                    <div class="linia"></div>
+                    <h3>Газпром Арена</h3>
+                    <p>Мы сделали самую красивую арену в
+                        Европе. Это открытие стало для нас
+                        прорывной точкой для разивтия на
+                        следующие десятилетия. Мы очень рады
+                        данному еву.</p>
+                </div>
+                <div class="col-4">
+                    <img src="final-template/st.jpg" alt="">
+                    <div class="linia"></div>
+                    <h3>Газпром Арена</h3>
+                    <p>Мы сделали самую красивую арену в
+                        Европе. Это открытие стало для нас
+                        прорывной точкой для разивтия на
+                        следующие десятилетия. Мы очень рады
+                        данному еву.</p>
+                </div>
+                <div class="col-4">
+                    <img src="final-template/st.jpg" alt="">
+                    <div class="linia"></div>
+                    <h3>Газпром Арена</h3>
+                    <p>Мы сделали самую красивую арену в
+                        Европе. Это открытие стало для нас
+                        прорывной точкой для разивтия на
+                        следующие десятилетия. Мы очень рады
+                        данному еву.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-1">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="umnie-proekti">
+                        <h1>САМЫЕ УМНЫЕ ПРОЕКТЫ</h1>
+                        <h5>РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="umnie-proekti-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" style="margin-right: 10px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                        </svg> 
+                        ВАШ ЗАПРОС
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center build-heading">ЧЕМ МЫ ЗАНИМАЕМСЯ?</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="build">
+                    <img src="final-template/icons/build.svg" alt="">
+                    <h5>СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h5>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="build">
+                    <img src="final-template/icons/build.svg" alt="">
+                    <h5>СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h5>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="build">
+                    <img src="final-template/icons/build.svg" alt="">
+                    <h5>СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h5>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="build">
+                    <img src="final-template/icons/build.svg" alt="">
+                    <h5>СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h5>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="build">
+                    <img src="final-template/icons/build.svg" alt="">
+                    <h5>СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h5>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="build">
+                    <img src="final-template/icons/build.svg" alt="">
+                    <h5>СТРОИТЕЛЬСТВО ОФИСНЫХ ЗДАНИЙ</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="row no-gutters">
+            <div class="col-3">
+                <img src="final-template/building.jpg" width="472px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="final-template/building.jpg" width="472px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="final-template/building.jpg" width="472px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="final-template/building.jpg" width="472px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="final-template/building.jpg" width="472px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="final-template/building.jpg" width="472px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="final-template/building.jpg" width="472px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="final-template/building.jpg" width="472px" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center otveti-vopros">ОТВЕТЫ НА ВОПРОСЫ</h2>
+        <div class="row">
+            <div class="col">
+                <div class="pull-out-list">
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</p>
+                    <p><i class="fa fa-caret-up" aria-hidden="true"></i>РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</p>
+                    <p class="Lorem">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum
+                        является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий
+                        безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя
+                        Lorem Ipsum для распечатки образцов. </p>
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</p>
+                    <p><i class="fa fa-caret-right" aria-hidden="true"></i>РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+        <div class="container">
+            <h3 class="text-center partners-heading">НАШИ ПАРТНЕРЫ</h3>
+            <div class="row">
+                <div class="col">
+                    <img src="final-template/partner.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="final-template/partner.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="final-template/partner.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="final-template/partner.png" alt="">
+                </div>
+                <div class="col">
+                    <img src="final-template/partner.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center otzivi-heading">ОТЗЫВЫ О РАБОТЕ С НАМИ</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="otzivi">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem Ipsum - это текст-"рыба", часто
+                        используемый в печати и вэб-дизайне.
+                        Lorem Ipsum является стандартной
+                        "рыбой" для текстов на латинице с
+                        начала XVI века. В то время некий
+                        безымянный печатник создал большую
+                        коллекцию размеров и форм шрифтов.
+                    </p>
+                 </div>
+                 <span>Иванов Иван, <b>ООО “Газпром-Арена”</b></span>
+            </div>
+            <div class="col-4">
+                <div class="otzivi">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem Ipsum - это текст-"рыба", часто
+                        используемый в печати и вэб-дизайне.
+                        Lorem Ipsum является стандартной
+                        "рыбой" для текстов на латинице с
+                        начала XVI века. В то время некий
+                        безымянный печатник создал большую
+                        коллекцию размеров и форм шрифтов.
+                    </p>
+                </div>
+                <span>Иванов Иван, <b>ООО “Газпром-Арена”</b></span>
+            </div>
+            <div class="col-4">
+                <div class="otzivi">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <p>
+                        Lorem Ipsum - это текст-"рыба", часто
+                        используемый в печати и вэб-дизайне.
+                        Lorem Ipsum является стандартной
+                        "рыбой" для текстов на латинице с
+                        начала XVI века. В то время некий
+                        безымянный печатник создал большую
+                        коллекцию размеров и форм шрифтов.
+                    </p>
+                </div>
+                <span>Иванов Иван, <b>ООО “Газпром-Арена”</b></span>
+            </div>
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="umnie-proekti">
+                        <h1>ХОТИТЕ С НАМИ РАБОТАТЬ?</h1>
+                        <h5>ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="umnie-proekti-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" style="margin-right: 10px;" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                        </svg> 
+                        ВАШ ЗАПРОС
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center contacts-heading">КОНТАКТЫ</h2>
+        <div class="row">
+            <div class="col">
+                <div class="contacts">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <h5>Адрес:</h5>
+                    <p>НЕВСКИЙ ПРОСПЕКТ 140, ОФИС 140-142</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="contacts">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <h5>ТЕЛЕФОН:</h5>
+                    <p>8 (812) 111-22-33</p>
+                    <p>8 (812) 111-22-33</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="contacts">
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <h5>ВРЕМЯ РАБОТЫ:</h5>
+                    <p>ПН-СБ</p>
+                    <p>10:00 - 20:00</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="contacts">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <h5>E MAIL:</h5>
+                    <p class="info">INFO@VIP.RU</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">© 2019 Строительная компания</div>
+                <div class="col">
+                    <div class="footer-1">Разработано лучшей студией</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b3c9bc8fc1.js" crossorigin="anonymous"></script>
+</body>
+</html>
