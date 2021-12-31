@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<style type="text/css">
+		.container {
+			width: 1140px;
+		}
+		.header {
+			padding: 10px;
+			margin-bottom: 10px;
+			color: white;
+			background-color: rgb(3, 143, 211);
+		}
+		.carousel-inner {
+			height: 420px;
+		}
+		.Free {
+			color: white;
+			background-color: rgb(40, 167, 69);
+			border-radius: 20px;
+		}
+		.Free-2 {
+			color: white;
+			background-color: rgb(255, 193, 7);
+			border-radius: 20px;
+		}.Free-3 {
+			color: white;
+			background-color: rgb(0, 123, 255);
+			border-radius: 20px;
+		}.Free-4 {
+			color: white;
+			background-color: rgb(220, 53, 69);
+			border-radius: 20px;
+		}
+		.footer {
+			color: white;
+			background-color: rgb(1, 30, 46);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 text-center">
+				<div class="header">
+					<h1>BOOTSTRAP</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+						<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="https://tsugaev.github.io/homeworks/bootstrap/1.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="https://tsugaev.github.io/homeworks/bootstrap/2.jpg" class="d-block w-100" alt="...">
+						</div>
+						<div class="carousel-item">
+							<img src="https://tsugaev.github.io/homeworks/bootstrap/3.jpg" class="d-block w-100" alt="...">
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Предыдущий</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Следующий</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 text-center">
+				<h3>Lorem Ipsum</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 text-center mb-2">
+				<p>
+					<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+						Click here
+					</a>
+				</p>
+				<div class="collapse" id="collapseExample">
+					<div class="card card-body">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row mb-2">
+			<div class="col-3 text-center">
+				<div class="Free p-4">
+					<h2>Free</h2>
+					<p>psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					<button type="button" class="btn btn-light">Купить</button>
+				</div>
+			</div>
+			<div class="col-3 text-center">
+				<div class="Free-2 p-4">
+					<h2>49$</h2>
+					<p>psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					<button type="button" class="btn btn-light">Купить</button>
+				</div>
+			</div>
+			<div class="col-3 text-center">
+				<div class="Free-3 p-4">
+					<h2>99$</h2>
+					<p>psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					<button type="button" class="btn btn-light">Купить</button>
+				</div>
+			</div>
+			<div class="col-3 text-center">
+				<div class="Free-4 p-4">
+					<h2>199$</h2>
+					<p>psum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+					<button type="button" class="btn btn-light">Купить</button>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 text-center">
+				<div class="footer p-2">
+					<h2>Footer</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
